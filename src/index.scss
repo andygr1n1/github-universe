@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/bootstrap";
+$bg-img: url('./img/bg.jpg');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: $bg-img;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  color: snow;
+}
+
+.spacebg {
+  background: linear-gradient(90deg, #1c0a54 0%, #1c0a54 40%, #850981 100%);
+}
+
+.navbar-brand {
+  cursor: pointer;
+  color: snow;
+}
+
+.simpleLoader {
+  margin: 0 auto;
+  text-align: center;
+  color: snow;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clearBtn {
+  margin-right: 5px;
+}
+
+.go { margin-left: 5px;}
